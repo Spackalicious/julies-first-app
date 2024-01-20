@@ -1,0 +1,7 @@
+<p 
+    [ngStyle]="{backgroundColor: getColor()}"
+    [ngClass]="{online: serverStatus === 'online'}">
+    {{ 'server' }} with ID {{ serverId }} is {{ getServerStatus() }}
+</p>
+<!-- this is called string interpolation -->
+<!-- in the first 'server', you can't use multi lines of code, so no for/if statements. You could use ternary expressions. -->
